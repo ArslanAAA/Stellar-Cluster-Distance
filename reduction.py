@@ -1,4 +1,4 @@
-import numpy as *
+import numpy as np
 from astropy.io import fits
 
 biases=array([fits.getdata("bias-%d.fit" % n ) for n in range(1,bias)])
