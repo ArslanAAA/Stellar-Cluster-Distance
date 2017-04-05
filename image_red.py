@@ -58,6 +58,4 @@ while(i<2):
 	print cat[i]
 	i+=1
 
-#p1=subprocess.Popen(["sextractor",""],stdin=PIPE,stdout=PIPE,stderr=PIPE)
-#p2=subprocess.Popen(["sextractor",""],stdin=PIPE,stdout=PIPE,stderr=PIPE)
 
