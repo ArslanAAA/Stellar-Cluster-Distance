@@ -58,4 +58,5 @@ An object is defined as being the same one in both tables if the co-ordinates in
 Thus, we use the Topcat Sky Algorithm with a max error of 3*Seeing(arcsecs) as an error measure.
 
 The next step is to use the matched catalogue for plotting the colour-magnitude diagram, followed by distance modulus computation.
+
 Result: Distance in parsecs = 10**(distance_modulus/5 + 1)
