@@ -7,7 +7,7 @@ Estimating the Distance to Star Clusters using Automated Photometry
    The first stage dealt with accurate measurement of the magnitudes of the stars in a cluster, either open or globular, in two different filters, visible (λcenter = 550 nm) and blue (λcenter = 440 nm). 
    This required acquisition of B and V filter CCD images in FITS format (Flexible Image Transport System), of the open cluster NGC 2420 and the globular cluster M80, reduction of the raw instrumental data followed by automated point spread function (PSF) photometry to calculate magnitudes tied to the standard UBV system. 
    The second stage involved estimating the distance to the two clusters using main sequence fitting technique. 
-   Algorithms were designed, implemented and tested to automated the task of computation of the distance modulus of each, of which unsupervised learning for identifying main sequence data coupled with statistical data binning produced better results than those involving model fitting. 
+   Algorithms were designed, implemented and tested to automate the task of computation of the distance modulus of each, of which unsupervised learning for identifying main sequence data coupled with statistical data binning produced better results than those involving model fitting. 
    The values and their corresponding error bars were calculated. The standard values were found to be well within the error bars.
 
 2. Package usage:
