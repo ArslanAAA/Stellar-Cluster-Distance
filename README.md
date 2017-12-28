@@ -1,4 +1,4 @@
-Estimating the Distance to Star Clusters using Automated Photometry
+# Estimating the Distance to Star Clusters using Automated Photometry
 
 1. Abstract:
    Images are needed as a first step in classifying celestial objects based on their morphology. 
