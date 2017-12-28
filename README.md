@@ -1,6 +1,7 @@
 # Estimating the Distance to Star Clusters using Automated Photometry
 
 1. Abstract:
+
    Images are needed as a first step in classifying celestial objects based on their morphology. 
    To go beyond this initial stage of investigation and to set constraints on the models of stellar structure and evolution, we need quantitative information or measurements of the properties of the objects, collectively referred to as Photometric Analysis. 
    The aim of this project has been to use automated photometry on images of star clusters and determine the distance to them using the colour-magnitude diagram. This project was completed in two stages. 
@@ -11,17 +12,21 @@
    The values and their corresponding error bars were calculated. The standard values were found to be well within the error bars.
 
 2. Package usage:
+
    Although the aim has been to completely automate the pipeline, there are certain intermediary steps which need to done.
    These involve the usage of certain tools as mentioned below.
 
 3. Input:
+
     1. B and V filter CCD images in FITS format of the star cluster whose distance you want to measure
     2. Instrumental Zero Point Magnitude (either directly specified or estimated using Aladin or other such tools)
 
 4. Output:
+
     Distance measuremnt in parsecs (3.26 light years)
    
 5. Requirements:
+
     1. SExtractor version 2.19.5 for source catalogue extraction from given CCD images
     2. Topcat for matching two source catalogues with respect to RA, DEC values
     3. Aladin and Aperture Photometry Tool for calculation of zero point magnitude(optional)
@@ -36,7 +41,8 @@ This works in two stages:
 
 2. The second stage deals with distance esimation using main sequence fitting technique. 
 I have used a robust method for distance computation which uses a nearby stars catalogue for main sequence fitting.
--> use classdistance.py methods to compute distance using:
+
+    -> use classdistance.py methods to compute distance using:
     1. Statistical binning
     2. Quadratic fitting
     3. Clustering and statistical binning
